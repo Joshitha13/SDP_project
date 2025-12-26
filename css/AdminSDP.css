@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f9fc;
+    color: #333;
+}
+
+/* HEADER BACKGROUND */
+header {
+  height: 100vh;
+  background: url('https://i.pinimg.com/736x/3b/d9/fd/3bd9fd6dc12a4a08a928d6a31387d056.jpg')no-repeat center center/cover;
+  position: relative;
+  color: white;
+}
+
+
+
+/* HERO SECTION */
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 80%;
+}
+
+.hero h3 {
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size:20px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 12px 35px;
+  background: white;
+  color: black;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #00c3ff;
+  color: white;
+}

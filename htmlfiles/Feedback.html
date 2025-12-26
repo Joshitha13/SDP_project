@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback - TravelStay</title>
+  <link rel="stylesheet" href="../css/Feedback.css">
+</head>
+<body>
+
+  <div class="feedback-container">
+    <div class="left-panel">
+      <h2>We Value Your Feedback</h2>
+      <p>Tell us about your experience at TravelStay. Your feedback helps us improve and make your next trip even better!</p>
+      <ul>
+        <li>🌿 Clean and comfortable homestays</li>
+        <li>💬 Helpful local guides</li>
+        <li>🏞 Personalized travel experiences</li>
+      </ul>
+    </div>
+
+    <div class="right-panel">
+      <h3>Share Your Feedback</h3>
+      <form id="feedbackForm">
+        <label>Full Name *</label>
+        <input type="text" id="name" required placeholder="Enter your name">
+
+        <label>Email Address *</label>
+        <input type="email" id="email" required placeholder="Enter your email">
+
+        <label>Rate Your Experience *</label>
+        <select id="rating" required>
+          <option value="">-- Select Rating --</option>
+          <option>Excellent</option>
+          <option>Good</option>
+          <option>Average</option>
+          <option>Poor</option>
+        </select>
+
+        <label>Your Feedback *</label>
+        <textarea id="message" rows="4" placeholder="Write your feedback here..." required></textarea>
+
+        <button type="submit" class="submit-btn">Submit Feedback</button>
+      </form>
+
+      <p id="thankYouMessage" class="thank-you"></p>
+    </div>
+  </div>
+
+  <script src="../jsfiles/Feedback.js"></script>
+</body>
+</html>
